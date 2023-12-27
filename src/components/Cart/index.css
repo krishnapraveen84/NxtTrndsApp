@@ -1,0 +1,80 @@
+.cart-container {
+  display: flex;
+  justify-content: center;
+  min-height: 75vh;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-container {
+    min-height: 90vh;
+  }
+}
+
+.cart-content-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 1110px;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-content-container {
+    width: 80%;
+    max-width: 1110px;
+  }
+}
+
+.cart-heading {
+  color: #3e4c59;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-heading {
+    font-size: 48px;
+  }
+  .remove-btn {
+    font-size: 22px;
+    font-weight: bold;
+  }
+}
+
+/* Write your CSS here */
+.remove-btn {
+  align-self: flex-end;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: rgb(36, 131, 232);
+  font-size: 18px;
+  font-weight: 530;
+}
+.cart-sumary-card {
+  align-self: flex-end;
+}
+.order-amount {
+  color: gray;
+}
+.amount {
+  color: black;
+  margin-left: 6px;
+}
+.cart-count {
+  color: gray;
+  font-size: 16px;
+  font-weight: 540;
+}
+.checkout-btn {
+  background-color: #0b69ff;
+  outline: none;
+  border-style: none;
+  padding: 10px;
+  height: 40px;
+  color: white;
+  font-size: 16px;
+  font-weight: 540;
+  width: 100%;
+  border-radius: 8px;
+}
