@@ -1,0 +1,24 @@
+.link {
+  text-decoration: none;
+  width: 100%;
+  text-align: center;
+}
+.payment-success-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80vh;
+}
+.success-heading {
+  font-size: 26px;
+  color: rgb(109, 231, 109);
+}
+.success-mes {
+  font-size: 18px;
+  color: rgb(59, 177, 216);
+}
+.prod-btn {
+  width: 20%;
+}
